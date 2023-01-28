@@ -1,0 +1,10 @@
+.search-assistant-container {
+  margin-bottom: 30px;
+  flex-basis: 0;
+  flex-grow: 1;
+
+  &.no-sidebar {
+    margin-left: 30px;
+    height: fit-content;
+  }
+}

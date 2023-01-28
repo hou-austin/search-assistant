@@ -2,8 +2,29 @@
   "manifest_version": 3,
   "name": "Search Assistant",
   "version": "1.0.0",
-  "action" : {
+  "action": {
     "default_popup": "popup.html",
     "default_title": "Search Assistant"
-  }
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "https://*.openai.com/*"
+  ]
 }
