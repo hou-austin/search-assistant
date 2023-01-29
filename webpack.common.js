@@ -14,7 +14,7 @@ module.exports = {
     },
     entry: {
         popup: path.resolve('src/popup/popup.tsx'),
-        options: path.resolve('src/options/options.tsx'),
+        options: path.resolve('src/options/index.tsx'),
         background: path.resolve('src/background/background.ts'),
         contentScript: path.resolve('src/contentScript/index.tsx'),
     },
@@ -43,7 +43,7 @@ module.exports = {
                 test: /\.s[ac]ss$/i,
             },
             {
-                type: 'assets/resource',
+                type: 'asset/resource',
                 test: /\.(png|jpg|jpeg|gif|woff|woff2|tff|eot|svg)$/,
             },
         ],

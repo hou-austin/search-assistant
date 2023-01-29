@@ -6,7 +6,7 @@ import {
     getSearchQuery,
     getSearchResults,
 } from '../utils';
-import { getGPTSearchRanking } from '../openai';
+import { getGPTSearchRanking } from '../../api/openai';
 import { render } from 'react-dom';
 import { createRoot } from 'react-dom/client';
 

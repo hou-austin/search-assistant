@@ -26,5 +26,15 @@
   ],
   "host_permissions": [
     "https://*.openai.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "/images/*"
+      ]
+    }
   ]
 }

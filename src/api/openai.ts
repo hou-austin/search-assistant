@@ -1,7 +1,7 @@
-import { getStorageItem } from '../utils/utils';
+import { getStorageItemSync } from '../utils/storage';
 
 export const getGPTResult = async (query: string) => {
-    const openaiKey = await getStorageItem('openaiKey');
+    const openaiKey = await getStorageItemSync('openaiKey');
 
     const response = await fetch('https://api.openai.com/v1/completions', {
         method: 'POST',
@@ -29,7 +29,7 @@ export const getGPTSearchRanking = async (
 ) => {
     const prompt = `Query: ${query}\n\nSearch Results:\n${searchResults}\n\nRank the search results in a list of numbers, separated by commas (example: x,x,x), based on relevancy. Use integers between 0 to 5.`;
 
-    const openaiKey = await getStorageItem('openaiKey');
+    const openaiKey = await getStorageItemSync('openaiKey');
 
     const response = await fetch('https://api.openai.com/v1/completions', {
         method: 'POST',
