@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "engines" : { 
-    "node" : "18.13.0"
+  "engines": {
+    "node": "18.13.0"
   },
   "scripts": {
     "dev": "webpack --watch --progress --config webpack.development.js",

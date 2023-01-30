@@ -4,38 +4,38 @@ export const getSearchQuery = () => {
     return input?.value;
 };
 
-type SearchResult = {
+export type SearchResult = {
     title: string;
     description: string;
     url: string;
 };
+
 export const getSearchResults = (): SearchResult[] => {
-    const titleElements = document.querySelectorAll(
-        '.MjjYud .tF2Cxc>.yuRUbf>a>.LC20lb.MBeuO.DKV0Md'
-    );
-    const titles = Array.from(titleElements).map(
-        (element) => element.textContent
-    );
+    const resultsContainer = document.querySelector('.v7W49e');
+    const results = Array.from(resultsContainer.children);
 
-    const urlElements = document.querySelectorAll('.MjjYud .tF2Cxc>.yuRUbf>a');
-    const urls = Array.from(urlElements).map((element) =>
-        element.getAttribute('href')
-    );
+    const searchResults = results.map((result) => {
+        const titleElement = result.querySelector('.LC20lb.MBeuO.DKV0Md');
+        const descriptionElement = result.querySelector(
+            '.VwiC3b.yXK7lf.MUxGbd.yDYNvb.lyLwlc'
+        );
 
-    const descriptionElements = document.querySelectorAll(
-        '.MjjYud .VwiC3b.yXK7lf.MUxGbd.yDYNvb.lyLwlc.lEBKkf'
-    );
-    const descriptions = Array.from(descriptionElements).map(
-        (element) => element.textContent
-    );
+        if (!titleElement || !descriptionElement) {
+            return undefined;
+        }
 
-    const results = titles.map((title, index) => ({
-        title,
-        description: descriptions[index],
-        url: urls[index],
-    }));
+        const title = titleElement.textContent;
+        const url = titleElement.parentElement.getAttribute('href');
+        const description = descriptionElement.textContent;
 
-    return results;
+        return {
+            title,
+            description,
+            url,
+        };
+    });
+
+    return searchResults.filter((result) => result) as SearchResult[];
 };
 
 export const formatSearchResultsForGPT = (results: SearchResult[]) => {
@@ -44,7 +44,7 @@ export const formatSearchResultsForGPT = (results: SearchResult[]) => {
     results.forEach((result, index) => {
         formattedResults += `Result: ${index + 1}\nTitle: ${
             result.title
-        } \nURL: ${result.url}\nDescription: ${result.description}\n\n`;
+        } \nDescription: ${result.description}\n\n`;
     });
 
     return formattedResults;

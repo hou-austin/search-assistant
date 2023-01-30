@@ -4,7 +4,6 @@ import { getGPTResult } from '../../api/openai';
 import BarLoader from 'react-spinners/BarLoader';
 import { MdContentCopy } from 'react-icons/md';
 
-import './styles.scss';
 import { getSearchQuery } from '../utils';
 import { Card } from '../../components/Card/Card';
 import { Button } from '../../components/Button/Button';
@@ -25,6 +24,7 @@ const propagateParagraphs = (openaiResponse: string) => {
                 className={cx(
                     'absolute h-full left-0 ml-[-34px] flex items-center top-0'
                 )}
+                key={`copy-${index}`}
             >
                 <Button
                     className={
@@ -43,6 +43,7 @@ const propagateParagraphs = (openaiResponse: string) => {
                 clickHandler={() => paragraphClickHandler(paragraph)}
                 reactToHover={true}
                 hoverComponent={clipboardButton}
+                key={`paragraph-${index}`}
             >
                 {paragraph}
             </Paragraph>
@@ -75,7 +76,7 @@ function GPTSearchCard() {
             onMouseEnter={() => setMouseIn(true)}
             onMouseLeave={() => setMouseIn(false)}
         >
-            <Card className={'gpt-search-card'}>
+            <Card className={'gpt-search-card'} useGradientBg>
                 <div
                     className={cx(
                         'text-lg text-neutral-100 flex justify-between',

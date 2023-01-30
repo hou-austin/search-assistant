@@ -1,0 +1,8 @@
+.card-gradient-bg {
+    background: rgb(12, 33, 65);
+    background: radial-gradient(
+        circle at top,
+        rgba(12, 33, 65, 1) 0%,
+        rgba(9, 14, 17, 1) 150%
+    );
+}

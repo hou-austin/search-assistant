@@ -7,98 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C37D955298745A80083117C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37D954298745A80083117C /* AppDelegate.swift */; };
-		7C37D957298745A80083117C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37D956298745A80083117C /* SceneDelegate.swift */; };
-		7C37D95A298745A80083117C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D958298745A80083117C /* LaunchScreen.storyboard */; };
-		7C37D95D298745A80083117C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D95B298745A80083117C /* Main.storyboard */; };
-		7C37D966298745A80083117C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37D965298745A80083117C /* AppDelegate.swift */; };
-		7C37D969298745A80083117C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D967298745A80083117C /* Main.storyboard */; };
-		7C37D971298745A80083117C /* Search Assistant Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7C37D970298745A80083117C /* Search Assistant Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7C37D97B298745A80083117C /* Search Assistant Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7C37D97A298745A80083117C /* Search Assistant Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7C37D981298745A80083117C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D944298745A70083117C /* Main.html */; };
-		7C37D982298745A80083117C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D944298745A70083117C /* Main.html */; };
-		7C37D983298745A80083117C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D946298745A70083117C /* Icon.png */; };
-		7C37D984298745A80083117C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D946298745A70083117C /* Icon.png */; };
-		7C37D985298745A80083117C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D947298745A70083117C /* Style.css */; };
-		7C37D986298745A80083117C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D947298745A70083117C /* Style.css */; };
-		7C37D987298745A80083117C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D948298745A70083117C /* Script.js */; };
-		7C37D988298745A80083117C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D948298745A70083117C /* Script.js */; };
-		7C37D989298745A80083117C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37D949298745A70083117C /* ViewController.swift */; };
-		7C37D98A298745A80083117C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37D949298745A70083117C /* ViewController.swift */; };
-		7C37D98B298745A80083117C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D94A298745A80083117C /* Assets.xcassets */; };
-		7C37D98C298745A80083117C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D94A298745A80083117C /* Assets.xcassets */; };
-		7C37D98D298745A80083117C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37D94C298745A80083117C /* SafariWebExtensionHandler.swift */; };
-		7C37D98E298745A80083117C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37D94C298745A80083117C /* SafariWebExtensionHandler.swift */; };
-		7C37D9B7298745A80083117C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A0298745A80083117C /* icon.png */; };
-		7C37D9B8298745A80083117C /* search-13-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A1298745A80083117C /* search-13-32.png */; };
-		7C37D9B9298745A80083117C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A2298745A80083117C /* popup.js */; };
-		7C37D9BA298745A80083117C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A4298745A80083117C /* background.js */; };
-		7C37D9BB298745A80083117C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A5298745A80083117C /* images */; };
-		7C37D9BC298745A80083117C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A7298745A80083117C /* popup.html */; };
-		7C37D9BD298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A8298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js */; };
-		7C37D9BE298745A80083117C /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A9298745A80083117C /* options.js */; };
-		7C37D9BF298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9AC298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js */; };
-		7C37D9C0298745A80083117C /* src_styles_tailwind_scss.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9AD298745A80083117C /* src_styles_tailwind_scss.js */; };
-		7C37D9C1298745A80083117C /* search-13-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9AF298745A80083117C /* search-13-48.png */; };
-		7C37D9C2298745A80083117C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B0298745A80083117C /* manifest.json */; };
-		7C37D9C3298745A80083117C /* search-13-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B1298745A80083117C /* search-13-128.png */; };
-		7C37D9C4298745A80083117C /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B2298745A80083117C /* options.html */; };
-		7C37D9C5298745A80083117C /* search-13-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B5298745A80083117C /* search-13-16.png */; };
-		7C37D9C6298745A80083117C /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B6298745A80083117C /* contentScript.js */; };
-		7C37D9C7298745A80083117C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A0298745A80083117C /* icon.png */; };
-		7C37D9C8298745A80083117C /* search-13-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A1298745A80083117C /* search-13-32.png */; };
-		7C37D9C9298745A80083117C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A2298745A80083117C /* popup.js */; };
-		7C37D9CA298745A80083117C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A4298745A80083117C /* background.js */; };
-		7C37D9CB298745A80083117C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A5298745A80083117C /* images */; };
-		7C37D9CC298745A80083117C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A7298745A80083117C /* popup.html */; };
-		7C37D9CD298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A8298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js */; };
-		7C37D9CE298745A80083117C /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9A9298745A80083117C /* options.js */; };
-		7C37D9CF298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9AC298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js */; };
-		7C37D9D0298745A80083117C /* src_styles_tailwind_scss.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9AD298745A80083117C /* src_styles_tailwind_scss.js */; };
-		7C37D9D1298745A80083117C /* search-13-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9AF298745A80083117C /* search-13-48.png */; };
-		7C37D9D2298745A80083117C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B0298745A80083117C /* manifest.json */; };
-		7C37D9D3298745A80083117C /* search-13-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B1298745A80083117C /* search-13-128.png */; };
-		7C37D9D4298745A80083117C /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B2298745A80083117C /* options.html */; };
-		7C37D9D5298745A80083117C /* search-13-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B5298745A80083117C /* search-13-16.png */; };
-		7C37D9D6298745A80083117C /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D9B6298745A80083117C /* contentScript.js */; };
+		7CC384412987C3D400447BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC384402987C3D400447BB9 /* AppDelegate.swift */; };
+		7CC384432987C3D400447BB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC384422987C3D400447BB9 /* SceneDelegate.swift */; };
+		7CC384462987C3D400447BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384442987C3D400447BB9 /* LaunchScreen.storyboard */; };
+		7CC384492987C3D400447BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384472987C3D400447BB9 /* Main.storyboard */; };
+		7CC384522987C3D400447BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC384512987C3D400447BB9 /* AppDelegate.swift */; };
+		7CC384552987C3D400447BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384532987C3D400447BB9 /* Main.storyboard */; };
+		7CC3845D2987C3D400447BB9 /* Search Assistant Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7CC3845C2987C3D400447BB9 /* Search Assistant Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CC384672987C3D400447BB9 /* Search Assistant Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7CC384662987C3D400447BB9 /* Search Assistant Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CC3846D2987C3D400447BB9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384302987C3D400447BB9 /* Main.html */; };
+		7CC3846E2987C3D400447BB9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384302987C3D400447BB9 /* Main.html */; };
+		7CC3846F2987C3D400447BB9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384322987C3D400447BB9 /* Icon.png */; };
+		7CC384702987C3D400447BB9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384322987C3D400447BB9 /* Icon.png */; };
+		7CC384712987C3D400447BB9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384332987C3D400447BB9 /* Style.css */; };
+		7CC384722987C3D400447BB9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384332987C3D400447BB9 /* Style.css */; };
+		7CC384732987C3D400447BB9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384342987C3D400447BB9 /* Script.js */; };
+		7CC384742987C3D400447BB9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384342987C3D400447BB9 /* Script.js */; };
+		7CC384752987C3D400447BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC384352987C3D400447BB9 /* ViewController.swift */; };
+		7CC384762987C3D400447BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC384352987C3D400447BB9 /* ViewController.swift */; };
+		7CC384772987C3D400447BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384362987C3D400447BB9 /* Assets.xcassets */; };
+		7CC384782987C3D400447BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384362987C3D400447BB9 /* Assets.xcassets */; };
+		7CC384792987C3D400447BB9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC384382987C3D400447BB9 /* SafariWebExtensionHandler.swift */; };
+		7CC3847A2987C3D400447BB9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC384382987C3D400447BB9 /* SafariWebExtensionHandler.swift */; };
+		7CC384A72987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3848C2987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js */; };
+		7CC384A82987C3D500447BB9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3848D2987C3D500447BB9 /* icon.png */; };
+		7CC384A92987C3D500447BB9 /* search-13-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3848E2987C3D500447BB9 /* search-13-32.png */; };
+		7CC384AA2987C3D500447BB9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3848F2987C3D500447BB9 /* popup.js */; };
+		7CC384AB2987C3D500447BB9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384912987C3D500447BB9 /* background.js */; };
+		7CC384AC2987C3D500447BB9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384932987C3D500447BB9 /* images */; };
+		7CC384AD2987C3D500447BB9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384952987C3D500447BB9 /* popup.html */; };
+		7CC384AE2987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384962987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js */; };
+		7CC384AF2987C3D500447BB9 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384972987C3D500447BB9 /* options.js */; };
+		7CC384B02987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384992987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js */; };
+		7CC384B12987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3849B2987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js */; };
+		7CC384B22987C3D500447BB9 /* src_styles_tailwind_scss.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3849C2987C3D500447BB9 /* src_styles_tailwind_scss.js */; };
+		7CC384B32987C3D500447BB9 /* search-13-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3849E2987C3D500447BB9 /* search-13-48.png */; };
+		7CC384B42987C3D500447BB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3849F2987C3D500447BB9 /* manifest.json */; };
+		7CC384B52987C3D500447BB9 /* search-13-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384A02987C3D500447BB9 /* search-13-128.png */; };
+		7CC384B62987C3D500447BB9 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384A12987C3D500447BB9 /* options.html */; };
+		7CC384B72987C3D500447BB9 /* search-13-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384A42987C3D500447BB9 /* search-13-16.png */; };
+		7CC384B82987C3D500447BB9 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384A62987C3D500447BB9 /* contentScript.js */; };
+		7CC384B92987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3848C2987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js */; };
+		7CC384BA2987C3D500447BB9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3848D2987C3D500447BB9 /* icon.png */; };
+		7CC384BB2987C3D500447BB9 /* search-13-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3848E2987C3D500447BB9 /* search-13-32.png */; };
+		7CC384BC2987C3D500447BB9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3848F2987C3D500447BB9 /* popup.js */; };
+		7CC384BD2987C3D500447BB9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384912987C3D500447BB9 /* background.js */; };
+		7CC384BE2987C3D500447BB9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384932987C3D500447BB9 /* images */; };
+		7CC384BF2987C3D500447BB9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384952987C3D500447BB9 /* popup.html */; };
+		7CC384C02987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384962987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js */; };
+		7CC384C12987C3D500447BB9 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384972987C3D500447BB9 /* options.js */; };
+		7CC384C22987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384992987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js */; };
+		7CC384C32987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3849B2987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js */; };
+		7CC384C42987C3D500447BB9 /* src_styles_tailwind_scss.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3849C2987C3D500447BB9 /* src_styles_tailwind_scss.js */; };
+		7CC384C52987C3D500447BB9 /* search-13-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3849E2987C3D500447BB9 /* search-13-48.png */; };
+		7CC384C62987C3D500447BB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3849F2987C3D500447BB9 /* manifest.json */; };
+		7CC384C72987C3D500447BB9 /* search-13-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384A02987C3D500447BB9 /* search-13-128.png */; };
+		7CC384C82987C3D500447BB9 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384A12987C3D500447BB9 /* options.html */; };
+		7CC384C92987C3D500447BB9 /* search-13-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384A42987C3D500447BB9 /* search-13-16.png */; };
+		7CC384CA2987C3D500447BB9 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 7CC384A62987C3D500447BB9 /* contentScript.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7C37D972298745A80083117C /* PBXContainerItemProxy */ = {
+		7CC3845E2987C3D400447BB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7C37D93E298745A70083117C /* Project object */;
+			containerPortal = 7CC3842A2987C3D400447BB9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7C37D96F298745A80083117C;
+			remoteGlobalIDString = 7CC3845B2987C3D400447BB9;
 			remoteInfo = "Search Assistant Extension (iOS)";
 		};
-		7C37D97C298745A80083117C /* PBXContainerItemProxy */ = {
+		7CC384682987C3D400447BB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7C37D93E298745A70083117C /* Project object */;
+			containerPortal = 7CC3842A2987C3D400447BB9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7C37D979298745A80083117C;
+			remoteGlobalIDString = 7CC384652987C3D400447BB9;
 			remoteInfo = "Search Assistant Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7C37D994298745A80083117C /* Embed Foundation Extensions */ = {
+		7CC384802987C3D400447BB9 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				7C37D971298745A80083117C /* Search Assistant Extension.appex in Embed Foundation Extensions */,
+				7CC3845D2987C3D400447BB9 /* Search Assistant Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D99B298745A80083117C /* Embed Foundation Extensions */ = {
+		7CC384872987C3D400447BB9 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				7C37D97B298745A80083117C /* Search Assistant Extension.appex in Embed Foundation Extensions */,
+				7CC384672987C3D400447BB9 /* Search Assistant Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,77 +110,81 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7C37D945298745A70083117C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		7C37D946298745A70083117C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		7C37D947298745A70083117C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		7C37D948298745A70083117C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		7C37D949298745A70083117C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C37D94A298745A80083117C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C37D94C298745A80083117C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		7C37D951298745A80083117C /* Search Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Search Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C37D954298745A80083117C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C37D956298745A80083117C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C37D959298745A80083117C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C37D95C298745A80083117C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C37D95E298745A80083117C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C37D963298745A80083117C /* Search Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Search Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C37D965298745A80083117C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C37D968298745A80083117C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C37D96A298745A80083117C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C37D96B298745A80083117C /* Search Assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Search Assistant.entitlements"; sourceTree = "<group>"; };
-		7C37D970298745A80083117C /* Search Assistant Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Search Assistant Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C37D975298745A80083117C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C37D97A298745A80083117C /* Search Assistant Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Search Assistant Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C37D97F298745A80083117C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C37D980298745A80083117C /* Search Assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Search Assistant.entitlements"; sourceTree = "<group>"; };
-		7C37D9A0298745A80083117C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../dist/icon.png; sourceTree = "<group>"; };
-		7C37D9A1298745A80083117C /* search-13-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-13-32.png"; path = "../../dist/search-13-32.png"; sourceTree = "<group>"; };
-		7C37D9A2298745A80083117C /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../dist/popup.js; sourceTree = "<group>"; };
-		7C37D9A3298745A80083117C /* popup.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = popup.js.map; path = ../../dist/popup.js.map; sourceTree = "<group>"; };
-		7C37D9A4298745A80083117C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../dist/background.js; sourceTree = "<group>"; };
-		7C37D9A5298745A80083117C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../dist/images; sourceTree = "<group>"; };
-		7C37D9A6298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map"; path = "../../dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map"; sourceTree = "<group>"; };
-		7C37D9A7298745A80083117C /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../dist/popup.html; sourceTree = "<group>"; };
-		7C37D9A8298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js"; path = "../../dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js"; sourceTree = "<group>"; };
-		7C37D9A9298745A80083117C /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../dist/options.js; sourceTree = "<group>"; };
-		7C37D9AA298745A80083117C /* src_styles_tailwind_scss.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = src_styles_tailwind_scss.js.map; path = ../../dist/src_styles_tailwind_scss.js.map; sourceTree = "<group>"; };
-		7C37D9AB298745A80083117C /* options.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = options.js.map; path = ../../dist/options.js.map; sourceTree = "<group>"; };
-		7C37D9AC298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js"; path = "../../dist/vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js"; sourceTree = "<group>"; };
-		7C37D9AD298745A80083117C /* src_styles_tailwind_scss.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = src_styles_tailwind_scss.js; path = ../../dist/src_styles_tailwind_scss.js; sourceTree = "<group>"; };
-		7C37D9AE298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = "vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js.map"; path = "../../dist/vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js.map"; sourceTree = "<group>"; };
-		7C37D9AF298745A80083117C /* search-13-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-13-48.png"; path = "../../dist/search-13-48.png"; sourceTree = "<group>"; };
-		7C37D9B0298745A80083117C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../dist/manifest.json; sourceTree = "<group>"; };
-		7C37D9B1298745A80083117C /* search-13-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-13-128.png"; path = "../../dist/search-13-128.png"; sourceTree = "<group>"; };
-		7C37D9B2298745A80083117C /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../dist/options.html; sourceTree = "<group>"; };
-		7C37D9B3298745A80083117C /* background.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = background.js.map; path = ../../dist/background.js.map; sourceTree = "<group>"; };
-		7C37D9B4298745A80083117C /* contentScript.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = contentScript.js.map; path = ../../dist/contentScript.js.map; sourceTree = "<group>"; };
-		7C37D9B5298745A80083117C /* search-13-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-13-16.png"; path = "../../dist/search-13-16.png"; sourceTree = "<group>"; };
-		7C37D9B6298745A80083117C /* contentScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentScript.js; path = ../../dist/contentScript.js; sourceTree = "<group>"; };
+		7CC384312987C3D400447BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		7CC384322987C3D400447BB9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7CC384332987C3D400447BB9 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		7CC384342987C3D400447BB9 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		7CC384352987C3D400447BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CC384362987C3D400447BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC384382987C3D400447BB9 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		7CC3843D2987C3D400447BB9 /* Search Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Search Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC384402987C3D400447BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC384422987C3D400447BB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CC384452987C3D400447BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC384482987C3D400447BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC3844A2987C3D400447BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC3844F2987C3D400447BB9 /* Search Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Search Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC384512987C3D400447BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC384542987C3D400447BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC384562987C3D400447BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC384572987C3D400447BB9 /* Search Assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Search Assistant.entitlements"; sourceTree = "<group>"; };
+		7CC3845C2987C3D400447BB9 /* Search Assistant Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Search Assistant Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC384612987C3D400447BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC384662987C3D400447BB9 /* Search Assistant Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Search Assistant Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC3846B2987C3D400447BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC3846C2987C3D400447BB9 /* Search Assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Search Assistant.entitlements"; sourceTree = "<group>"; };
+		7CC3848C2987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js"; path = "../../dist/vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js"; sourceTree = "<group>"; };
+		7CC3848D2987C3D500447BB9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../dist/icon.png; sourceTree = "<group>"; };
+		7CC3848E2987C3D500447BB9 /* search-13-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-13-32.png"; path = "../../dist/search-13-32.png"; sourceTree = "<group>"; };
+		7CC3848F2987C3D500447BB9 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../dist/popup.js; sourceTree = "<group>"; };
+		7CC384902987C3D500447BB9 /* popup.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = popup.js.map; path = ../../dist/popup.js.map; sourceTree = "<group>"; };
+		7CC384912987C3D500447BB9 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../dist/background.js; sourceTree = "<group>"; };
+		7CC384922987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = "vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js.map"; path = "../../dist/vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js.map"; sourceTree = "<group>"; };
+		7CC384932987C3D500447BB9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../dist/images; sourceTree = "<group>"; };
+		7CC384942987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map"; path = "../../dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map"; sourceTree = "<group>"; };
+		7CC384952987C3D500447BB9 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../dist/popup.html; sourceTree = "<group>"; };
+		7CC384962987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js"; path = "../../dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js"; sourceTree = "<group>"; };
+		7CC384972987C3D500447BB9 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../dist/options.js; sourceTree = "<group>"; };
+		7CC384982987C3D500447BB9 /* src_styles_tailwind_scss.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = src_styles_tailwind_scss.js.map; path = ../../dist/src_styles_tailwind_scss.js.map; sourceTree = "<group>"; };
+		7CC384992987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js"; path = "../../dist/vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js"; sourceTree = "<group>"; };
+		7CC3849A2987C3D500447BB9 /* options.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = options.js.map; path = ../../dist/options.js.map; sourceTree = "<group>"; };
+		7CC3849B2987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js"; path = "../../dist/vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js"; sourceTree = "<group>"; };
+		7CC3849C2987C3D500447BB9 /* src_styles_tailwind_scss.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = src_styles_tailwind_scss.js; path = ../../dist/src_styles_tailwind_scss.js; sourceTree = "<group>"; };
+		7CC3849D2987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = "vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js.map"; path = "../../dist/vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js.map"; sourceTree = "<group>"; };
+		7CC3849E2987C3D500447BB9 /* search-13-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-13-48.png"; path = "../../dist/search-13-48.png"; sourceTree = "<group>"; };
+		7CC3849F2987C3D500447BB9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../dist/manifest.json; sourceTree = "<group>"; };
+		7CC384A02987C3D500447BB9 /* search-13-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-13-128.png"; path = "../../dist/search-13-128.png"; sourceTree = "<group>"; };
+		7CC384A12987C3D500447BB9 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../dist/options.html; sourceTree = "<group>"; };
+		7CC384A22987C3D500447BB9 /* background.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = background.js.map; path = ../../dist/background.js.map; sourceTree = "<group>"; };
+		7CC384A32987C3D500447BB9 /* contentScript.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = contentScript.js.map; path = ../../dist/contentScript.js.map; sourceTree = "<group>"; };
+		7CC384A42987C3D500447BB9 /* search-13-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-13-16.png"; path = "../../dist/search-13-16.png"; sourceTree = "<group>"; };
+		7CC384A52987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = "vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js.map"; path = "../../dist/vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js.map"; sourceTree = "<group>"; };
+		7CC384A62987C3D500447BB9 /* contentScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentScript.js; path = ../../dist/contentScript.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C37D94E298745A80083117C /* Frameworks */ = {
+		7CC3843A2987C3D400447BB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D960298745A80083117C /* Frameworks */ = {
+		7CC3844C2987C3D400447BB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D96D298745A80083117C /* Frameworks */ = {
+		7CC384592987C3D400447BB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D977298745A80083117C /* Frameworks */ = {
+		7CC384632987C3D400447BB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,126 +194,130 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C37D93D298745A70083117C = {
+		7CC384292987C3D400447BB9 = {
 			isa = PBXGroup;
 			children = (
-				7C37D942298745A70083117C /* Shared (App) */,
-				7C37D94B298745A80083117C /* Shared (Extension) */,
-				7C37D953298745A80083117C /* iOS (App) */,
-				7C37D964298745A80083117C /* macOS (App) */,
-				7C37D974298745A80083117C /* iOS (Extension) */,
-				7C37D97E298745A80083117C /* macOS (Extension) */,
-				7C37D952298745A80083117C /* Products */,
+				7CC3842E2987C3D400447BB9 /* Shared (App) */,
+				7CC384372987C3D400447BB9 /* Shared (Extension) */,
+				7CC3843F2987C3D400447BB9 /* iOS (App) */,
+				7CC384502987C3D400447BB9 /* macOS (App) */,
+				7CC384602987C3D400447BB9 /* iOS (Extension) */,
+				7CC3846A2987C3D400447BB9 /* macOS (Extension) */,
+				7CC3843E2987C3D400447BB9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7C37D942298745A70083117C /* Shared (App) */ = {
+		7CC3842E2987C3D400447BB9 /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D949298745A70083117C /* ViewController.swift */,
-				7C37D94A298745A80083117C /* Assets.xcassets */,
-				7C37D943298745A70083117C /* Resources */,
+				7CC384352987C3D400447BB9 /* ViewController.swift */,
+				7CC384362987C3D400447BB9 /* Assets.xcassets */,
+				7CC3842F2987C3D400447BB9 /* Resources */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		7C37D943298745A70083117C /* Resources */ = {
+		7CC3842F2987C3D400447BB9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D944298745A70083117C /* Main.html */,
-				7C37D946298745A70083117C /* Icon.png */,
-				7C37D947298745A70083117C /* Style.css */,
-				7C37D948298745A70083117C /* Script.js */,
+				7CC384302987C3D400447BB9 /* Main.html */,
+				7CC384322987C3D400447BB9 /* Icon.png */,
+				7CC384332987C3D400447BB9 /* Style.css */,
+				7CC384342987C3D400447BB9 /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		7C37D94B298745A80083117C /* Shared (Extension) */ = {
+		7CC384372987C3D400447BB9 /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D99F298745A80083117C /* Resources */,
-				7C37D94C298745A80083117C /* SafariWebExtensionHandler.swift */,
+				7CC3848B2987C3D500447BB9 /* Resources */,
+				7CC384382987C3D400447BB9 /* SafariWebExtensionHandler.swift */,
 			);
 			path = "Shared (Extension)";
 			sourceTree = "<group>";
 		};
-		7C37D952298745A80083117C /* Products */ = {
+		7CC3843E2987C3D400447BB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D951298745A80083117C /* Search Assistant.app */,
-				7C37D963298745A80083117C /* Search Assistant.app */,
-				7C37D970298745A80083117C /* Search Assistant Extension.appex */,
-				7C37D97A298745A80083117C /* Search Assistant Extension.appex */,
+				7CC3843D2987C3D400447BB9 /* Search Assistant.app */,
+				7CC3844F2987C3D400447BB9 /* Search Assistant.app */,
+				7CC3845C2987C3D400447BB9 /* Search Assistant Extension.appex */,
+				7CC384662987C3D400447BB9 /* Search Assistant Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C37D953298745A80083117C /* iOS (App) */ = {
+		7CC3843F2987C3D400447BB9 /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D954298745A80083117C /* AppDelegate.swift */,
-				7C37D956298745A80083117C /* SceneDelegate.swift */,
-				7C37D958298745A80083117C /* LaunchScreen.storyboard */,
-				7C37D95B298745A80083117C /* Main.storyboard */,
-				7C37D95E298745A80083117C /* Info.plist */,
+				7CC384402987C3D400447BB9 /* AppDelegate.swift */,
+				7CC384422987C3D400447BB9 /* SceneDelegate.swift */,
+				7CC384442987C3D400447BB9 /* LaunchScreen.storyboard */,
+				7CC384472987C3D400447BB9 /* Main.storyboard */,
+				7CC3844A2987C3D400447BB9 /* Info.plist */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
-		7C37D964298745A80083117C /* macOS (App) */ = {
+		7CC384502987C3D400447BB9 /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D965298745A80083117C /* AppDelegate.swift */,
-				7C37D967298745A80083117C /* Main.storyboard */,
-				7C37D96A298745A80083117C /* Info.plist */,
-				7C37D96B298745A80083117C /* Search Assistant.entitlements */,
+				7CC384512987C3D400447BB9 /* AppDelegate.swift */,
+				7CC384532987C3D400447BB9 /* Main.storyboard */,
+				7CC384562987C3D400447BB9 /* Info.plist */,
+				7CC384572987C3D400447BB9 /* Search Assistant.entitlements */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
 		};
-		7C37D974298745A80083117C /* iOS (Extension) */ = {
+		7CC384602987C3D400447BB9 /* iOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D975298745A80083117C /* Info.plist */,
+				7CC384612987C3D400447BB9 /* Info.plist */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
 		};
-		7C37D97E298745A80083117C /* macOS (Extension) */ = {
+		7CC3846A2987C3D400447BB9 /* macOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D97F298745A80083117C /* Info.plist */,
-				7C37D980298745A80083117C /* Search Assistant.entitlements */,
+				7CC3846B2987C3D400447BB9 /* Info.plist */,
+				7CC3846C2987C3D400447BB9 /* Search Assistant.entitlements */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
-		7C37D99F298745A80083117C /* Resources */ = {
+		7CC3848B2987C3D500447BB9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D9A0298745A80083117C /* icon.png */,
-				7C37D9A1298745A80083117C /* search-13-32.png */,
-				7C37D9A2298745A80083117C /* popup.js */,
-				7C37D9A3298745A80083117C /* popup.js.map */,
-				7C37D9A4298745A80083117C /* background.js */,
-				7C37D9A5298745A80083117C /* images */,
-				7C37D9A6298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map */,
-				7C37D9A7298745A80083117C /* popup.html */,
-				7C37D9A8298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js */,
-				7C37D9A9298745A80083117C /* options.js */,
-				7C37D9AA298745A80083117C /* src_styles_tailwind_scss.js.map */,
-				7C37D9AB298745A80083117C /* options.js.map */,
-				7C37D9AC298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js */,
-				7C37D9AD298745A80083117C /* src_styles_tailwind_scss.js */,
-				7C37D9AE298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js.map */,
-				7C37D9AF298745A80083117C /* search-13-48.png */,
-				7C37D9B0298745A80083117C /* manifest.json */,
-				7C37D9B1298745A80083117C /* search-13-128.png */,
-				7C37D9B2298745A80083117C /* options.html */,
-				7C37D9B3298745A80083117C /* background.js.map */,
-				7C37D9B4298745A80083117C /* contentScript.js.map */,
-				7C37D9B5298745A80083117C /* search-13-16.png */,
-				7C37D9B6298745A80083117C /* contentScript.js */,
+				7CC3848C2987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js */,
+				7CC3848D2987C3D500447BB9 /* icon.png */,
+				7CC3848E2987C3D500447BB9 /* search-13-32.png */,
+				7CC3848F2987C3D500447BB9 /* popup.js */,
+				7CC384902987C3D500447BB9 /* popup.js.map */,
+				7CC384912987C3D500447BB9 /* background.js */,
+				7CC384922987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js.map */,
+				7CC384932987C3D500447BB9 /* images */,
+				7CC384942987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map */,
+				7CC384952987C3D500447BB9 /* popup.html */,
+				7CC384962987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js */,
+				7CC384972987C3D500447BB9 /* options.js */,
+				7CC384982987C3D500447BB9 /* src_styles_tailwind_scss.js.map */,
+				7CC384992987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js */,
+				7CC3849A2987C3D500447BB9 /* options.js.map */,
+				7CC3849B2987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js */,
+				7CC3849C2987C3D500447BB9 /* src_styles_tailwind_scss.js */,
+				7CC3849D2987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js.map */,
+				7CC3849E2987C3D500447BB9 /* search-13-48.png */,
+				7CC3849F2987C3D500447BB9 /* manifest.json */,
+				7CC384A02987C3D500447BB9 /* search-13-128.png */,
+				7CC384A12987C3D500447BB9 /* options.html */,
+				7CC384A22987C3D500447BB9 /* background.js.map */,
+				7CC384A32987C3D500447BB9 /* contentScript.js.map */,
+				7CC384A42987C3D500447BB9 /* search-13-16.png */,
+				7CC384A52987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js.map */,
+				7CC384A62987C3D500447BB9 /* contentScript.js */,
 			);
 			name = Resources;
 			path = "Shared (Extension)";
@@ -314,51 +326,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C37D950298745A80083117C /* Search Assistant (iOS) */ = {
+		7CC3843C2987C3D400447BB9 /* Search Assistant (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C37D995298745A80083117C /* Build configuration list for PBXNativeTarget "Search Assistant (iOS)" */;
+			buildConfigurationList = 7CC384812987C3D400447BB9 /* Build configuration list for PBXNativeTarget "Search Assistant (iOS)" */;
 			buildPhases = (
-				7C37D94D298745A80083117C /* Sources */,
-				7C37D94E298745A80083117C /* Frameworks */,
-				7C37D94F298745A80083117C /* Resources */,
-				7C37D994298745A80083117C /* Embed Foundation Extensions */,
+				7CC384392987C3D400447BB9 /* Sources */,
+				7CC3843A2987C3D400447BB9 /* Frameworks */,
+				7CC3843B2987C3D400447BB9 /* Resources */,
+				7CC384802987C3D400447BB9 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C37D973298745A80083117C /* PBXTargetDependency */,
+				7CC3845F2987C3D400447BB9 /* PBXTargetDependency */,
 			);
 			name = "Search Assistant (iOS)";
 			productName = "Search Assistant (iOS)";
-			productReference = 7C37D951298745A80083117C /* Search Assistant.app */;
+			productReference = 7CC3843D2987C3D400447BB9 /* Search Assistant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7C37D962298745A80083117C /* Search Assistant (macOS) */ = {
+		7CC3844E2987C3D400447BB9 /* Search Assistant (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C37D99C298745A80083117C /* Build configuration list for PBXNativeTarget "Search Assistant (macOS)" */;
+			buildConfigurationList = 7CC384882987C3D400447BB9 /* Build configuration list for PBXNativeTarget "Search Assistant (macOS)" */;
 			buildPhases = (
-				7C37D95F298745A80083117C /* Sources */,
-				7C37D960298745A80083117C /* Frameworks */,
-				7C37D961298745A80083117C /* Resources */,
-				7C37D99B298745A80083117C /* Embed Foundation Extensions */,
+				7CC3844B2987C3D400447BB9 /* Sources */,
+				7CC3844C2987C3D400447BB9 /* Frameworks */,
+				7CC3844D2987C3D400447BB9 /* Resources */,
+				7CC384872987C3D400447BB9 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C37D97D298745A80083117C /* PBXTargetDependency */,
+				7CC384692987C3D400447BB9 /* PBXTargetDependency */,
 			);
 			name = "Search Assistant (macOS)";
 			productName = "Search Assistant (macOS)";
-			productReference = 7C37D963298745A80083117C /* Search Assistant.app */;
+			productReference = 7CC3844F2987C3D400447BB9 /* Search Assistant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7C37D96F298745A80083117C /* Search Assistant Extension (iOS) */ = {
+		7CC3845B2987C3D400447BB9 /* Search Assistant Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C37D991298745A80083117C /* Build configuration list for PBXNativeTarget "Search Assistant Extension (iOS)" */;
+			buildConfigurationList = 7CC3847D2987C3D400447BB9 /* Build configuration list for PBXNativeTarget "Search Assistant Extension (iOS)" */;
 			buildPhases = (
-				7C37D96C298745A80083117C /* Sources */,
-				7C37D96D298745A80083117C /* Frameworks */,
-				7C37D96E298745A80083117C /* Resources */,
+				7CC384582987C3D400447BB9 /* Sources */,
+				7CC384592987C3D400447BB9 /* Frameworks */,
+				7CC3845A2987C3D400447BB9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -366,16 +378,16 @@
 			);
 			name = "Search Assistant Extension (iOS)";
 			productName = "Search Assistant Extension (iOS)";
-			productReference = 7C37D970298745A80083117C /* Search Assistant Extension.appex */;
+			productReference = 7CC3845C2987C3D400447BB9 /* Search Assistant Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		7C37D979298745A80083117C /* Search Assistant Extension (macOS) */ = {
+		7CC384652987C3D400447BB9 /* Search Assistant Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C37D998298745A80083117C /* Build configuration list for PBXNativeTarget "Search Assistant Extension (macOS)" */;
+			buildConfigurationList = 7CC384842987C3D400447BB9 /* Build configuration list for PBXNativeTarget "Search Assistant Extension (macOS)" */;
 			buildPhases = (
-				7C37D976298745A80083117C /* Sources */,
-				7C37D977298745A80083117C /* Frameworks */,
-				7C37D978298745A80083117C /* Resources */,
+				7CC384622987C3D400447BB9 /* Sources */,
+				7CC384632987C3D400447BB9 /* Frameworks */,
+				7CC384642987C3D400447BB9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -383,34 +395,34 @@
 			);
 			name = "Search Assistant Extension (macOS)";
 			productName = "Search Assistant Extension (macOS)";
-			productReference = 7C37D97A298745A80083117C /* Search Assistant Extension.appex */;
+			productReference = 7CC384662987C3D400447BB9 /* Search Assistant Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7C37D93E298745A70083117C /* Project object */ = {
+		7CC3842A2987C3D400447BB9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					7C37D950298745A80083117C = {
+					7CC3843C2987C3D400447BB9 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					7C37D962298745A80083117C = {
+					7CC3844E2987C3D400447BB9 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					7C37D96F298745A80083117C = {
+					7CC3845B2987C3D400447BB9 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					7C37D979298745A80083117C = {
+					7CC384652987C3D400447BB9 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 7C37D941298745A70083117C /* Build configuration list for PBXProject "Search Assistant" */;
+			buildConfigurationList = 7CC3842D2987C3D400447BB9 /* Build configuration list for PBXProject "Search Assistant" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -418,175 +430,179 @@
 				en,
 				Base,
 			);
-			mainGroup = 7C37D93D298745A70083117C;
-			productRefGroup = 7C37D952298745A80083117C /* Products */;
+			mainGroup = 7CC384292987C3D400447BB9;
+			productRefGroup = 7CC3843E2987C3D400447BB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C37D950298745A80083117C /* Search Assistant (iOS) */,
-				7C37D962298745A80083117C /* Search Assistant (macOS) */,
-				7C37D96F298745A80083117C /* Search Assistant Extension (iOS) */,
-				7C37D979298745A80083117C /* Search Assistant Extension (macOS) */,
+				7CC3843C2987C3D400447BB9 /* Search Assistant (iOS) */,
+				7CC3844E2987C3D400447BB9 /* Search Assistant (macOS) */,
+				7CC3845B2987C3D400447BB9 /* Search Assistant Extension (iOS) */,
+				7CC384652987C3D400447BB9 /* Search Assistant Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7C37D94F298745A80083117C /* Resources */ = {
+		7CC3843B2987C3D400447BB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C37D983298745A80083117C /* Icon.png in Resources */,
-				7C37D95A298745A80083117C /* LaunchScreen.storyboard in Resources */,
-				7C37D981298745A80083117C /* Main.html in Resources */,
-				7C37D987298745A80083117C /* Script.js in Resources */,
-				7C37D98B298745A80083117C /* Assets.xcassets in Resources */,
-				7C37D95D298745A80083117C /* Main.storyboard in Resources */,
-				7C37D985298745A80083117C /* Style.css in Resources */,
+				7CC3846F2987C3D400447BB9 /* Icon.png in Resources */,
+				7CC384462987C3D400447BB9 /* LaunchScreen.storyboard in Resources */,
+				7CC3846D2987C3D400447BB9 /* Main.html in Resources */,
+				7CC384732987C3D400447BB9 /* Script.js in Resources */,
+				7CC384772987C3D400447BB9 /* Assets.xcassets in Resources */,
+				7CC384492987C3D400447BB9 /* Main.storyboard in Resources */,
+				7CC384712987C3D400447BB9 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D961298745A80083117C /* Resources */ = {
+		7CC3844D2987C3D400447BB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C37D984298745A80083117C /* Icon.png in Resources */,
-				7C37D986298745A80083117C /* Style.css in Resources */,
-				7C37D969298745A80083117C /* Main.storyboard in Resources */,
-				7C37D988298745A80083117C /* Script.js in Resources */,
-				7C37D98C298745A80083117C /* Assets.xcassets in Resources */,
-				7C37D982298745A80083117C /* Main.html in Resources */,
+				7CC384702987C3D400447BB9 /* Icon.png in Resources */,
+				7CC384722987C3D400447BB9 /* Style.css in Resources */,
+				7CC384552987C3D400447BB9 /* Main.storyboard in Resources */,
+				7CC384742987C3D400447BB9 /* Script.js in Resources */,
+				7CC384782987C3D400447BB9 /* Assets.xcassets in Resources */,
+				7CC3846E2987C3D400447BB9 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D96E298745A80083117C /* Resources */ = {
+		7CC3845A2987C3D400447BB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C37D9CB298745A80083117C /* images in Resources */,
-				7C37D9D0298745A80083117C /* src_styles_tailwind_scss.js in Resources */,
-				7C37D9CE298745A80083117C /* options.js in Resources */,
-				7C37D9D3298745A80083117C /* search-13-128.png in Resources */,
-				7C37D9D1298745A80083117C /* search-13-48.png in Resources */,
-				7C37D9D2298745A80083117C /* manifest.json in Resources */,
-				7C37D9CF298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js in Resources */,
-				7C37D9D4298745A80083117C /* options.html in Resources */,
-				7C37D9CD298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js in Resources */,
-				7C37D9CC298745A80083117C /* popup.html in Resources */,
-				7C37D9CA298745A80083117C /* background.js in Resources */,
-				7C37D9D6298745A80083117C /* contentScript.js in Resources */,
-				7C37D9D5298745A80083117C /* search-13-16.png in Resources */,
-				7C37D9C8298745A80083117C /* search-13-32.png in Resources */,
-				7C37D9C9298745A80083117C /* popup.js in Resources */,
-				7C37D9C7298745A80083117C /* icon.png in Resources */,
+				7CC384C72987C3D500447BB9 /* search-13-128.png in Resources */,
+				7CC384C32987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js in Resources */,
+				7CC384C02987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js in Resources */,
+				7CC384C12987C3D500447BB9 /* options.js in Resources */,
+				7CC384C42987C3D500447BB9 /* src_styles_tailwind_scss.js in Resources */,
+				7CC384BF2987C3D500447BB9 /* popup.html in Resources */,
+				7CC384BE2987C3D500447BB9 /* images in Resources */,
+				7CC384BA2987C3D500447BB9 /* icon.png in Resources */,
+				7CC384B92987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js in Resources */,
+				7CC384CA2987C3D500447BB9 /* contentScript.js in Resources */,
+				7CC384C62987C3D500447BB9 /* manifest.json in Resources */,
+				7CC384BB2987C3D500447BB9 /* search-13-32.png in Resources */,
+				7CC384C82987C3D500447BB9 /* options.html in Resources */,
+				7CC384BC2987C3D500447BB9 /* popup.js in Resources */,
+				7CC384C52987C3D500447BB9 /* search-13-48.png in Resources */,
+				7CC384C92987C3D500447BB9 /* search-13-16.png in Resources */,
+				7CC384BD2987C3D500447BB9 /* background.js in Resources */,
+				7CC384C22987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D978298745A80083117C /* Resources */ = {
+		7CC384642987C3D400447BB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C37D9BB298745A80083117C /* images in Resources */,
-				7C37D9C0298745A80083117C /* src_styles_tailwind_scss.js in Resources */,
-				7C37D9BE298745A80083117C /* options.js in Resources */,
-				7C37D9C3298745A80083117C /* search-13-128.png in Resources */,
-				7C37D9C1298745A80083117C /* search-13-48.png in Resources */,
-				7C37D9C2298745A80083117C /* manifest.json in Resources */,
-				7C37D9BF298745A80083117C /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js in Resources */,
-				7C37D9C4298745A80083117C /* options.html in Resources */,
-				7C37D9BD298745A80083117C /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js in Resources */,
-				7C37D9BC298745A80083117C /* popup.html in Resources */,
-				7C37D9BA298745A80083117C /* background.js in Resources */,
-				7C37D9C6298745A80083117C /* contentScript.js in Resources */,
-				7C37D9C5298745A80083117C /* search-13-16.png in Resources */,
-				7C37D9B8298745A80083117C /* search-13-32.png in Resources */,
-				7C37D9B9298745A80083117C /* popup.js in Resources */,
-				7C37D9B7298745A80083117C /* icon.png in Resources */,
+				7CC384B52987C3D500447BB9 /* search-13-128.png in Resources */,
+				7CC384B12987C3D500447BB9 /* vendors-node_modules_classnames_index_js-node_modules_webextension-polyfill_dist_browser-poly-ee8e6f.js in Resources */,
+				7CC384AE2987C3D500447BB9 /* vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js in Resources */,
+				7CC384AF2987C3D500447BB9 /* options.js in Resources */,
+				7CC384B22987C3D500447BB9 /* src_styles_tailwind_scss.js in Resources */,
+				7CC384AD2987C3D500447BB9 /* popup.html in Resources */,
+				7CC384AC2987C3D500447BB9 /* images in Resources */,
+				7CC384A82987C3D500447BB9 /* icon.png in Resources */,
+				7CC384A72987C3D500447BB9 /* vendors-node_modules_vechaiui_switch_dist_esm_switch_js-node_modules_classnames_index_js-node-62bb86.js in Resources */,
+				7CC384B82987C3D500447BB9 /* contentScript.js in Resources */,
+				7CC384B42987C3D500447BB9 /* manifest.json in Resources */,
+				7CC384A92987C3D500447BB9 /* search-13-32.png in Resources */,
+				7CC384B62987C3D500447BB9 /* options.html in Resources */,
+				7CC384AA2987C3D500447BB9 /* popup.js in Resources */,
+				7CC384B32987C3D500447BB9 /* search-13-48.png in Resources */,
+				7CC384B72987C3D500447BB9 /* search-13-16.png in Resources */,
+				7CC384AB2987C3D500447BB9 /* background.js in Resources */,
+				7CC384B02987C3D500447BB9 /* vendors-node_modules_material-tailwind_react_index_js-node_modules_webextension-polyfill_dist-d38697.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C37D94D298745A80083117C /* Sources */ = {
+		7CC384392987C3D400447BB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C37D989298745A80083117C /* ViewController.swift in Sources */,
-				7C37D955298745A80083117C /* AppDelegate.swift in Sources */,
-				7C37D957298745A80083117C /* SceneDelegate.swift in Sources */,
+				7CC384752987C3D400447BB9 /* ViewController.swift in Sources */,
+				7CC384412987C3D400447BB9 /* AppDelegate.swift in Sources */,
+				7CC384432987C3D400447BB9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D95F298745A80083117C /* Sources */ = {
+		7CC3844B2987C3D400447BB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C37D98A298745A80083117C /* ViewController.swift in Sources */,
-				7C37D966298745A80083117C /* AppDelegate.swift in Sources */,
+				7CC384762987C3D400447BB9 /* ViewController.swift in Sources */,
+				7CC384522987C3D400447BB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D96C298745A80083117C /* Sources */ = {
+		7CC384582987C3D400447BB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C37D98D298745A80083117C /* SafariWebExtensionHandler.swift in Sources */,
+				7CC384792987C3D400447BB9 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C37D976298745A80083117C /* Sources */ = {
+		7CC384622987C3D400447BB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C37D98E298745A80083117C /* SafariWebExtensionHandler.swift in Sources */,
+				7CC3847A2987C3D400447BB9 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7C37D973298745A80083117C /* PBXTargetDependency */ = {
+		7CC3845F2987C3D400447BB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7C37D96F298745A80083117C /* Search Assistant Extension (iOS) */;
-			targetProxy = 7C37D972298745A80083117C /* PBXContainerItemProxy */;
+			target = 7CC3845B2987C3D400447BB9 /* Search Assistant Extension (iOS) */;
+			targetProxy = 7CC3845E2987C3D400447BB9 /* PBXContainerItemProxy */;
 		};
-		7C37D97D298745A80083117C /* PBXTargetDependency */ = {
+		7CC384692987C3D400447BB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7C37D979298745A80083117C /* Search Assistant Extension (macOS) */;
-			targetProxy = 7C37D97C298745A80083117C /* PBXContainerItemProxy */;
+			target = 7CC384652987C3D400447BB9 /* Search Assistant Extension (macOS) */;
+			targetProxy = 7CC384682987C3D400447BB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7C37D944298745A70083117C /* Main.html */ = {
+		7CC384302987C3D400447BB9 /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C37D945298745A70083117C /* Base */,
+				7CC384312987C3D400447BB9 /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		7C37D958298745A80083117C /* LaunchScreen.storyboard */ = {
+		7CC384442987C3D400447BB9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C37D959298745A80083117C /* Base */,
+				7CC384452987C3D400447BB9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		7C37D95B298745A80083117C /* Main.storyboard */ = {
+		7CC384472987C3D400447BB9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C37D95C298745A80083117C /* Base */,
+				7CC384482987C3D400447BB9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7C37D967298745A80083117C /* Main.storyboard */ = {
+		7CC384532987C3D400447BB9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C37D968298745A80083117C /* Base */,
+				7CC384542987C3D400447BB9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -594,7 +610,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7C37D98F298745A80083117C /* Debug */ = {
+		7CC3847B2987C3D400447BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -652,7 +668,7 @@
 			};
 			name = Debug;
 		};
-		7C37D990298745A80083117C /* Release */ = {
+		7CC3847C2987C3D400447BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -703,7 +719,7 @@
 			};
 			name = Release;
 		};
-		7C37D992298745A80083117C /* Debug */ = {
+		7CC3847E2987C3D400447BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -733,7 +749,7 @@
 			};
 			name = Debug;
 		};
-		7C37D993298745A80083117C /* Release */ = {
+		7CC3847F2987C3D400447BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -764,7 +780,7 @@
 			};
 			name = Release;
 		};
-		7C37D996298745A80083117C /* Debug */ = {
+		7CC384822987C3D400447BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -801,7 +817,7 @@
 			};
 			name = Debug;
 		};
-		7C37D997298745A80083117C /* Release */ = {
+		7CC384832987C3D400447BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -839,7 +855,7 @@
 			};
 			name = Release;
 		};
-		7C37D999298745A80083117C /* Debug */ = {
+		7CC384852987C3D400447BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Search Assistant.entitlements";
@@ -870,7 +886,7 @@
 			};
 			name = Debug;
 		};
-		7C37D99A298745A80083117C /* Release */ = {
+		7CC384862987C3D400447BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Search Assistant.entitlements";
@@ -901,7 +917,7 @@
 			};
 			name = Release;
 		};
-		7C37D99D298745A80083117C /* Debug */ = {
+		7CC384892987C3D400447BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -936,7 +952,7 @@
 			};
 			name = Debug;
 		};
-		7C37D99E298745A80083117C /* Release */ = {
+		7CC3848A2987C3D400447BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -974,52 +990,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C37D941298745A70083117C /* Build configuration list for PBXProject "Search Assistant" */ = {
+		7CC3842D2987C3D400447BB9 /* Build configuration list for PBXProject "Search Assistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C37D98F298745A80083117C /* Debug */,
-				7C37D990298745A80083117C /* Release */,
+				7CC3847B2987C3D400447BB9 /* Debug */,
+				7CC3847C2987C3D400447BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C37D991298745A80083117C /* Build configuration list for PBXNativeTarget "Search Assistant Extension (iOS)" */ = {
+		7CC3847D2987C3D400447BB9 /* Build configuration list for PBXNativeTarget "Search Assistant Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C37D992298745A80083117C /* Debug */,
-				7C37D993298745A80083117C /* Release */,
+				7CC3847E2987C3D400447BB9 /* Debug */,
+				7CC3847F2987C3D400447BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C37D995298745A80083117C /* Build configuration list for PBXNativeTarget "Search Assistant (iOS)" */ = {
+		7CC384812987C3D400447BB9 /* Build configuration list for PBXNativeTarget "Search Assistant (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C37D996298745A80083117C /* Debug */,
-				7C37D997298745A80083117C /* Release */,
+				7CC384822987C3D400447BB9 /* Debug */,
+				7CC384832987C3D400447BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C37D998298745A80083117C /* Build configuration list for PBXNativeTarget "Search Assistant Extension (macOS)" */ = {
+		7CC384842987C3D400447BB9 /* Build configuration list for PBXNativeTarget "Search Assistant Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C37D999298745A80083117C /* Debug */,
-				7C37D99A298745A80083117C /* Release */,
+				7CC384852987C3D400447BB9 /* Debug */,
+				7CC384862987C3D400447BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C37D99C298745A80083117C /* Build configuration list for PBXNativeTarget "Search Assistant (macOS)" */ = {
+		7CC384882987C3D400447BB9 /* Build configuration list for PBXNativeTarget "Search Assistant (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C37D99D298745A80083117C /* Debug */,
-				7C37D99E298745A80083117C /* Release */,
+				7CC384892987C3D400447BB9 /* Debug */,
+				7CC3848A2987C3D400447BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7C37D93E298745A70083117C /* Project object */;
+	rootObject = 7CC3842A2987C3D400447BB9 /* Project object */;
 }
